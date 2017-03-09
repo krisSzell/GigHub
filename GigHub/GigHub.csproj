@@ -208,9 +208,16 @@
     <Compile Include="Migrations\201703092146332_InitialModel.Designer.cs">
       <DependentUpon>201703092146332_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703092156116_CreateGigAndGenreDomainModels.cs" />
+    <Compile Include="Migrations\201703092156116_CreateGigAndGenreDomainModels.Designer.cs">
+      <DependentUpon>201703092156116_CreateGigAndGenreDomainModels.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -294,6 +301,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201703092146332_InitialModel.resx">
       <DependentUpon>201703092146332_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703092156116_CreateGigAndGenreDomainModels.resx">
+      <DependentUpon>201703092156116_CreateGigAndGenreDomainModels.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
