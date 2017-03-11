@@ -219,6 +219,10 @@
     <Compile Include="Migrations\201703092218222_SeedGenresTable.Designer.cs">
       <DependentUpon>201703092218222_SeedGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703111455350_AddForeignKeyPropsToGig.cs" />
+    <Compile Include="Migrations\201703111455350_AddForeignKeyPropsToGig.Designer.cs">
+      <DependentUpon>201703111455350_AddForeignKeyPropsToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -325,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703092218222_SeedGenresTable.resx">
       <DependentUpon>201703092218222_SeedGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703111455350_AddForeignKeyPropsToGig.resx">
+      <DependentUpon>201703111455350_AddForeignKeyPropsToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

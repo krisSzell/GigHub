@@ -198,3 +198,4 @@ D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.See
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.Cache
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.dll
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.pdb
+D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForeignKeyPropsToGig.resources
