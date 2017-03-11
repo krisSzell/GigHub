@@ -1,10 +1,20 @@
 ﻿using GigHub.Models;
+using System;
 using System.Collections.Generic;
 
 namespace GigHub.ViewModels
 {
     public class GigFormViewModel
     {
+        public DateTime DateTime
+        {
+            get
+            {
+                return DateTime.Parse(string.Format($"{Date} {Time}"));
+            }
+                
+         }
+
         public string Venue { get; set; }
 
         public string Date { get; set; }
