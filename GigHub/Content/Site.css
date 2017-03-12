@@ -1,6 +1,15 @@
-﻿body {
+﻿@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-size: 20px;
     padding-top: 50px;
     padding-bottom: 20px;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: Raleway
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +30,60 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/* Bootstrap Overrides */
+
+.navbar {
+    font-family: 'Open Sans';
+} 
+.navbar-inverse {
+    background-color: #ff4342;
+    border-color: #ffb2b2;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+.dropdown-menu {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+.form-control {
+    font-size: 1em;
+    padding: 25px 15px;
+    border-radius: 9px;
+}
+
+.form-control:focus {
+    border-color: #0fb4e1;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+} 
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 8px 30px;
+    border-radius: 9px;
 }
