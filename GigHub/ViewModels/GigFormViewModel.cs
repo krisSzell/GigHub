@@ -12,6 +12,7 @@ namespace GigHub.ViewModels
             return DateTime.Parse(string.Format($"{Date} {Time}"));
         }
 
+
         [Required]
         public string Venue { get; set; }
 
