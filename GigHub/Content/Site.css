@@ -89,8 +89,6 @@ textarea {
 }
 
 .btn {
-    font-size: 1em;
-    padding: 8px 30px;
     border-radius: 9px;
 }
 
@@ -114,7 +112,7 @@ textarea {
     background-color: red;
     color: white;
     text-align: center;
-    width: 60px;
+    width: 80px;
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
@@ -135,14 +133,15 @@ textarea {
 .gigs > li .details {
     position: absolute;
     top: 0;
-    left: 70px;
+    left: 90px;
 }
 
 .gigs > li .details .artist {
     font-weight: bold;
     display: block;
+    font-size: 1.25em;
 }
 
 .gigs > li .details .genre {
-    font-size: .8em
+    font-size: .8em;
 }

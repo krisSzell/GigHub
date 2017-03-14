@@ -197,6 +197,8 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Dtos\AttendanceDto.cs" />
+    <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\GigsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -227,7 +229,12 @@
     <Compile Include="Migrations\201703142002020_AddedNameToApplicationUser.Designer.cs">
       <DependentUpon>201703142002020_AddedNameToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703142102593_AddedAttendanceModel.cs" />
+    <Compile Include="Migrations\201703142102593_AddedAttendanceModel.Designer.cs">
+      <DependentUpon>201703142102593_AddedAttendanceModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Attendance.cs" />
     <Compile Include="ViewModels\AddPhoneNumberViewModel.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="ViewModels\ChangePasswordViewModel.cs" />
@@ -356,6 +363,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703142002020_AddedNameToApplicationUser.resx">
       <DependentUpon>201703142002020_AddedNameToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703142102593_AddedAttendanceModel.resx">
+      <DependentUpon>201703142102593_AddedAttendanceModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
