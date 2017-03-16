@@ -235,9 +235,9 @@
     <Compile Include="Migrations\201703142102593_AddedAttendanceModel.Designer.cs">
       <DependentUpon>201703142102593_AddedAttendanceModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703162105591_AddedFollowingModel.cs" />
-    <Compile Include="Migrations\201703162105591_AddedFollowingModel.Designer.cs">
-      <DependentUpon>201703162105591_AddedFollowingModel.cs</DependentUpon>
+    <Compile Include="Migrations\201703162136594_AddedFollowingModel.cs" />
+    <Compile Include="Migrations\201703162136594_AddedFollowingModel.Designer.cs">
+      <DependentUpon>201703162136594_AddedFollowingModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Attendance.cs" />
@@ -374,8 +374,8 @@
     <EmbeddedResource Include="Migrations\201703142102593_AddedAttendanceModel.resx">
       <DependentUpon>201703142102593_AddedAttendanceModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703162105591_AddedFollowingModel.resx">
-      <DependentUpon>201703162105591_AddedFollowingModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703162136594_AddedFollowingModel.resx">
+      <DependentUpon>201703162136594_AddedFollowingModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

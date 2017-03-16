@@ -13,7 +13,7 @@ namespace GigHub.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201703162105591_AddedFollowingModel"; }
+            get { return "201703162136594_AddedFollowingModel"; }
         }
         
         string IMigrationMetadata.Source
