@@ -145,3 +145,16 @@ textarea {
 .gigs > li .details .genre {
     font-size: .8em;
 }
+
+.gigs .details {
+    display: inline-block;
+}
+
+.gigs .follow-artist {
+    display: inline-block;
+}
+
+.gigs > li .details .artist .fa {
+    color: red;
+    cursor: pointer;
+}
