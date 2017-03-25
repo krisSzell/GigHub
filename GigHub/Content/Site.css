@@ -97,7 +97,7 @@ textarea {
 
 .form-control {
     font-size: 1em;
-    padding: 25px 15px;
+    height: 52px;
     border-radius: 9px;
 }
 
@@ -181,4 +181,13 @@ textarea {
 .gigs > li .details .artist .fa {
     color: red;
     cursor: pointer;
+}
+
+.gigs > li .actions {
+    display: none;
+    font-size: .8em;
+}
+
+.gigs > li:hover .actions {
+    display: block;
 }
