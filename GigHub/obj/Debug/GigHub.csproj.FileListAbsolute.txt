@@ -202,3 +202,5 @@ D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.Add
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddedNameToApplicationUser.resources
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddedAttendanceModel.resources
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddedFollowingModel.resources
+D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddCanceledToGig.resources
+D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
