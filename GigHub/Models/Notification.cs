@@ -32,6 +32,7 @@ namespace GigHub.Models
             Type = notificationType;
         }
 
+
         public static Notification GigCreated(Gig gig)
         {
             return new Notification(gig, NotificationType.GigCreated);
