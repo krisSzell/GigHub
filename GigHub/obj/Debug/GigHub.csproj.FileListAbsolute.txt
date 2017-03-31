@@ -190,7 +190,6 @@ D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\bin\Microsoft.AI.DependencyColl
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\bin\Microsoft.AI.WindowsServer.xml
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\bin\Microsoft.AI.Web.xml
-D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.csprojResolveAssemblyReference.cache
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.InitialModel.resources
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigAndGenreDomainModels.resources
 D:\Programowanie\ASP.NET\GigHubApp\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConventionsForGigsAndGenres.resources

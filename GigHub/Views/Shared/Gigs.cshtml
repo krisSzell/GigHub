@@ -13,7 +13,7 @@
         </div>
     </div>
 }
-<ul class="gigs voffset40">
+<ul id="gigs" class="gigs voffset40">
     @foreach (var gig in Model.UpcomingGigs)
     {
         <li class="row">
@@ -27,16 +27,11 @@
             </div>
             <div class="details">
                 <span class="artist">
-                    @gig.Artist.Name
+                    @Html.ActionLink(@gig.Artist.Name, "Details", "Home", new { id = @gig.Id }, null)
 
                     @if (gig.IsCanceled)
                     {
                         <span class="label label-warning">Cancelled</span>
-                    }
-
-                    @if (Model.ShowActions)
-                    {
-                        <i data-followee-id="@gig.Artist.Id" class="fa fa-heart-o js-toggle-follow" aria-hidden="true"></i>
                     }
                 </span>
                 <span class="genre">
@@ -44,7 +39,11 @@
                 </span>
                 @if (Model.ShowActions && !gig.IsCanceled)
                 {
-                    <button data-gig-id="@gig.Id" class="btn btn-default btn-sm pull-right js-toggle-attandance">Going ?</button>
+                    <button 
+                        data-gig-id="@gig.Id" 
+                        class="btn @(Model.Attendances.Contains(gig.Id) ? "btn-info" : "btn-default") btn-sm pull-right js-toggle-attendance">
+                        Going
+                    </button>
                 }
             </div>
         </li>
@@ -54,32 +53,7 @@
 {
     <script>
         $(document).ready(function () {
-
-            $('.js-toggle-attandance').click(function(e) {
-                var button = $(e.target);
-                $.post("/api/attendances", { gigId: button.attr("data-gig-id") })
-                    .done(function () {
-                        button
-                            .removeClass('btn-default')
-                            .addClass('btn-info')
-                            .text("Going")
-                    })
-                    .fail(function () {
-                        alert("Something went wrong!/attendance");
-                    });
-            });
-
-            $('.js-toggle-follow').click(function (e) {
-                var button = $(e.target);
-                $.post("/api/followings", { followeeId: button.attr("data-followee-id") })
-                    .done(function () {
-                        button.removeClass('fa-heart-o')
-                            .addClass('fa-heart');
-                    })
-                    .fail(function () {
-                        alert("Something went wrong!/follow");
-                    });
-            }); 
+            GigsController.init();
         });
     </script>
 }

@@ -199,3 +199,12 @@ textarea {
 #searchGigs {
   width: 300px;
 }
+.gig-details .artist h1 {
+  display: inline-block;
+}
+.gig-details .artist button {
+  background: transparent;
+  border: transparent;
+  color: red;
+  font-size: 1.5em;
+}
